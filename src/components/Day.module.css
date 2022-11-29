@@ -1,0 +1,41 @@
+.wrap {
+  display: flex; 
+  flex-direction: column; 
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.pbody {
+  width: 19px;
+  display: flex;
+  padding: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  justify-content: center;
+}
+.ptop {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+}
+.day {
+  flex: 1 1 0%;
+  cursor: pointer;
+}
+.day p { 
+  margin-top: 10px;
+}
+.event {
+  padding: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-right: 0.75rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 0.25rem;
+}

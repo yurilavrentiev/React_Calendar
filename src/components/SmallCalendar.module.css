@@ -1,0 +1,63 @@
+.wrapper {
+  padding-top: 9px;
+}
+
+.header {
+  display: flex; 
+  flex-flow:  column;
+  justify-content: space-between; 
+  align-items: center;
+}
+.text {
+  color:  #737475;
+  font-weight: 700; 
+}
+.chevron {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: #737475;
+  cursor: pointer;
+}
+.btn {
+  display:flex;
+  justify-content: center;
+  height: 18px;
+  width: 25px;
+}
+.btnWrapper {
+  display: flex; 
+  flex-direction: left;
+}
+.calendarContainer {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+.daysOfWeek {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+.dayBTN {
+  display:flex;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  width: 100%;
+  height: 75%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.dayText {
+  font-size: 12px;
+  line-height: 10px;
+  text-align: center;
+}
+.dayBTN:hover {
+  background-color: #DBEAFE;
+  border-radius: 9999px;
+}

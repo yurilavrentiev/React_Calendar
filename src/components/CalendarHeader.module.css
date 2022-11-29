@@ -1,0 +1,54 @@
+
+.header {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.text {
+  margin-right: 2.5rem;
+  color: #737475;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.todayBTN {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1.25rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  color: #737475;
+  cursor: pointer;
+}
+.todayBTN:hover {
+  background-color: #e3e5e7;
+}
+.chevronCont {
+  cursor: pointer;
+}
+
+.chevron {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: #737475;
+  
+}
+
+.month {
+  margin-left: 1rem;
+  color: #737475;
+  font-weight: 700;
+}
